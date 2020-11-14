@@ -467,7 +467,7 @@
     <dynamic_include_subfolders>N</dynamic_include_subfolders>
     <limit>0</limit>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\ToSendMail.zip</name>
+      <name>${Internal.Transformation.Filename.Directory}/ToSendMail.zip</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>

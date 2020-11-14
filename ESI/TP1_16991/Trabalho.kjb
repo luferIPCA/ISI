@@ -366,7 +366,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>C:/IPCA/3ºAno/ISI/Trabalho_Pratico_1/Transformation1.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/Transformation1.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -464,7 +464,7 @@ Tudo OK. Bom Trabalho</comment>
       <filename/>
       <fields>
         <field>
-          <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\netflix_titles.csv</name>
+          <name>${Internal.Job.Filename.Directory}/netflix_titles.csv</name>
         </field>
       </fields>
       <parallel>N</parallel>
@@ -500,7 +500,7 @@ Tudo OK. Bom Trabalho</comment>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/SQL/sql.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/sql.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -537,12 +537,12 @@ Tudo OK. Bom Trabalho</comment>
       <description/>
       <type>ZIP_FILE</type>
       <attributes/>
-      <zipfilename>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\ToSendMail.zip</zipfilename>
+      <zipfilename>${Internal.Job.Filename.Directory}/ToSendMail.zip</zipfilename>
       <compressionrate>1</compressionrate>
       <ifzipfileexists>2</ifzipfileexists>
       <wildcard/>
       <wildcardexclude/>
-      <sourcedirectory>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Netflix</sourcedirectory>
+      <sourcedirectory>${Internal.Job.Filename.Directory}/Netflix</sourcedirectory>
       <movetodirectory/>
       <afterzip>0</afterzip>
       <addfiletoresult>N</addfiletoresult>
@@ -602,40 +602,11 @@ Tudo OK. Bom Trabalho</comment>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Process result filenames</name>
-      <description/>
-      <type>COPY_MOVE_RESULT_FILENAMES</type>
-      <attributes/>
-      <foldername/>
-      <specify_wildcard>N</specify_wildcard>
-      <wildcard/>
-      <wildcardexclude/>
-      <destination_folder/>
-      <nr_errors_less_than>10</nr_errors_less_than>
-      <success_condition>success_if_no_errors</success_condition>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <action>delete</action>
-      <AddDateBeforeExtension>N</AddDateBeforeExtension>
-      <OverwriteFile>N</OverwriteFile>
-      <CreateDestinationFolder>N</CreateDestinationFolder>
-      <RemovedSourceFilename>Y</RemovedSourceFilename>
-      <AddDestinationFilename>Y</AddDestinationFilename>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>320</xloc>
-      <yloc>272</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
       <name>Delete Zip</name>
       <description/>
       <type>DELETE_FILE</type>
       <attributes/>
-      <filename>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\ToSendMail.zip</filename>
+      <filename>${Internal.Job.Filename.Directory}/ToSendMail.zip</filename>
       <fail_if_file_not_exists>N</fail_if_file_not_exists>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -687,6 +658,22 @@ Tudo OK. Bom Trabalho</comment>
       <nr>0</nr>
       <xloc>576</xloc>
       <yloc>16</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Process result filenames</name>
+      <description/>
+      <type>DELETE_RESULT_FILENAMES</type>
+      <attributes/>
+      <foldername/>
+      <specify_wildcard>N</specify_wildcard>
+      <wildcard/>
+      <wildcardexclude/>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>304</xloc>
+      <yloc>256</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -755,24 +742,6 @@ Tudo OK. Bom Trabalho</comment>
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Filter</from>
-      <to>Process result filenames</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Process result filenames</from>
-      <to>Check DB connections</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Mail</from>
       <to>Delete Zip</to>
       <from_nr>0</from_nr>
@@ -824,6 +793,24 @@ Tudo OK. Bom Trabalho</comment>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Filter</from>
+      <to>Process result filenames</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Process result filenames</from>
+      <to>Check DB connections</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
   </hops>

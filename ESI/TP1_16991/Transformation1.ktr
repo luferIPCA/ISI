@@ -479,7 +479,7 @@
     </hop>
     <hop>
       <from>Switch / case</from>
-      <to>TVShows 2</to>
+      <to>TVShows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -523,7 +523,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\FirstFilter\CSVOutputFalse</name>
+      <name>${Internal.Transformation.Filename.Directory}/FirstFilter/CSVOutputFalse</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -580,7 +580,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\FirstFilter\CSVOutputTrue</name>
+      <name>${Internal.Transformation.Filename.Directory}/FirstFilter/CSVOutputTrue</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -623,7 +623,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\netflix_titles.csv</filename>
+    <filename>${Internal.Transformation.Filename.Directory}/netflix_titles.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -801,7 +801,7 @@
     <xml_main_element>Rows</xml_main_element>
     <xml_repeat_element>Row</xml_repeat_element>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Netflix\Movies\DLower70</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/Movies/DLower70</name>
       <extention>xml</extention>
       <servlet_output>N</servlet_output>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
@@ -847,7 +847,7 @@
     <xml_main_element>Rows</xml_main_element>
     <xml_repeat_element>Row</xml_repeat_element>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Netflix\Movies\DMore70</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/Movies/DMore70</name>
       <extention>xml</extention>
       <servlet_output>N</servlet_output>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
@@ -1258,7 +1258,7 @@
       </case>
       <case>
         <value>TV Show</value>
-        <target_step>TVShows 2</target_step>
+        <target_step>TVShows</target_step>
       </case>
     </cases>
     <attributes/>
@@ -1276,7 +1276,7 @@
     </GUI>
   </step>
   <step>
-    <name>TVShows 2</name>
+    <name>TVShows</name>
     <type>XMLOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1291,7 +1291,7 @@
     <xml_main_element>Rows</xml_main_element>
     <xml_repeat_element>Row</xml_repeat_element>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Netflix\TVShows\TVShow</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/TVShows/TVShow</name>
       <extention>xml</extention>
       <servlet_output>N</servlet_output>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
@@ -1337,7 +1337,7 @@
     <xml_main_element>Rows</xml_main_element>
     <xml_repeat_element>Row</xml_repeat_element>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\FirstFilter\XMLOutputFalse</name>
+      <name>${Internal.Transformation.Filename.Directory}/FirstFilter/XMLOutputFalse</name>
       <extention>xml</extention>
       <servlet_output>N</servlet_output>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
@@ -1383,7 +1383,7 @@
     <xml_main_element>Rows</xml_main_element>
     <xml_repeat_element>Row</xml_repeat_element>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\FirstFilter\XMLOutputTrue</name>
+      <name>${Internal.Transformation.Filename.Directory}/FirstFilter/XMLOutputTrue</name>
       <extention>xml</extention>
       <servlet_output>N</servlet_output>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>

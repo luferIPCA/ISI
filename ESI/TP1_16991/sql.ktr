@@ -6,6 +6,7 @@
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -839,7 +840,7 @@ CREATE TABLE if not exists netflix_tv_shows();</sql>
     <rownum_field/>
     <encoding>UTF-8</encoding>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Movies\DMore70.xml</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/Movies/DMore70.xml</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1080,7 +1081,7 @@ CREATE TABLE if not exists netflix_tv_shows();</sql>
     <rownum_field/>
     <encoding>UTF-8</encoding>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\Movies\DLower70.xml</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/Movies/DLower70.xml</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
@@ -1326,7 +1327,7 @@ CREATE TABLE if not exists netflix_tv_shows();</sql>
     <rownum_field/>
     <encoding>UTF-8</encoding>
     <file>
-      <name>C:\IPCA\3ºAno\ISI\Trabalho_Pratico_1\TVShows\TVShow.xml</name>
+      <name>${Internal.Transformation.Filename.Directory}/Netflix/TVShows/TVShow.xml</name>
       <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
