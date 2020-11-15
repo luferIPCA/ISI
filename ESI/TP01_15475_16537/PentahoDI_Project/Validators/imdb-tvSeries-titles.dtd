@@ -1,0 +1,11 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT Titles (Title)+>
+<!ELEMENT Title (id, titleType, primaryTitle, originalTitle, isAdult, startYear, endYear, runtimeMinutes, genre*)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT titleType (#PCDATA)>
+<!ELEMENT primaryTitle (#PCDATA)>
+<!ELEMENT isAdult (#PCDATA)>
+<!ELEMENT startYear (#PCDATA)>
+<!ELEMENT endYear (#PCDATA)>
+<!ELEMENT runtimeMinutes (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
