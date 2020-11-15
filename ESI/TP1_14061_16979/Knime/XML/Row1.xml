@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="portugal">
+    <item>
+        <Status>200</Status>
+        <Contenttype ns:originalKey="Content type" xmlns:ns="http://www.knime.org/json2xml/originalKey/">application/json; charset=UTF-8</Contenttype>
+        <Country>Portugal</Country>
+        <CountryCode>PT</CountryCode>
+        <Slug>portugal</Slug>
+        <NewConfirmed>5550</NewConfirmed>
+        <TotalConfirmed>166900</TotalConfirmed>
+        <NewDeaths>52</NewDeaths>
+        <TotalDeaths>2792</TotalDeaths>
+        <NewRecovered>2301</NewRecovered>
+        <TotalRecovered>93754</TotalRecovered>
+        <Date>2020-11-07T10:53:50Z</Date>
+    </item>
+</root>

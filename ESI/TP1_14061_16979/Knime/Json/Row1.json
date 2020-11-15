@@ -1,0 +1,14 @@
+[ {
+  "Status" : 200,
+  "Content type" : "application/json; charset=UTF-8",
+  "Country" : "Portugal",
+  "CountryCode" : "PT",
+  "Slug" : "portugal",
+  "NewConfirmed" : 5550,
+  "TotalConfirmed" : 166900,
+  "NewDeaths" : 52,
+  "TotalDeaths" : 2792,
+  "NewRecovered" : 2301,
+  "TotalRecovered" : 93754,
+  "Date" : "2020-11-07T10:53:50Z"
+} ]
