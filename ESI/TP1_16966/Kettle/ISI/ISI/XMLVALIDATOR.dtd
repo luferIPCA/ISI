@@ -1,0 +1,13 @@
+﻿<!ELEMENT Rows (Row)+>
+<!ELEMENT Row (full_name,age,birthday,league,season,position,Current_Club,nationality,goals_overall)>
+<!ELEMENT full_name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT league (#PCDATA)>
+<!ELEMENT season (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT Current_Club (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT goals_overall (#PCDATA)>
+
+
