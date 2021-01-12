@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Rows>
+<Row><Nome>Sonia</Nome> <Apelido>Almeida</Apelido> <Cc> 11324354</Cc> <Idade> 26</Idade> <Contacto> 932002123</Contacto> <Email>Sonia_Almeida @hotmail.com</Email> <Contratado>Sim</Contratado> <Estudante>Sim</Estudante> <IBAN>PT50121212125252526363699</IBAN> <Salario> 0951</Salario></Row>
+<Row><Nome>Joao</Nome> <Apelido>Barros</Apelido> <Cc> 12312123</Cc> <Idade> 22</Idade> <Contacto> 913133311</Contacto> <Email>Joao_Barros@outlook.com</Email> <Contratado>Sim</Contratado> <Estudante>Sim</Estudante> <IBAN>PT50123454312345232453155</IBAN> <Salario> 0745</Salario></Row>
+<Row><Nome>Vera</Nome> <Apelido>costa</Apelido> <Cc> 11113433</Cc> <Idade> 20</Idade> <Contacto> 913544123</Contacto> <Email>Vera_Costa@gmail.com</Email> <Contratado>Sim</Contratado> <Estudante>Nao</Estudante> <IBAN>PT50352523655125364587895</IBAN> <Salario> 0949</Salario></Row>
+</Rows>
