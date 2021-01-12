@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Rows>
+<Row><Topic>Arabic</Topic> <StageID>lowerlevel</StageID> <ID>G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-04</ID> <RAISED>1141</RAISED></Row>
+<Row><Topic>Arabic</Topic> <StageID>MiddleSchool</StageID> <ID>G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08</ID> <RAISED>1426</RAISED></Row>
+<Row><Topic>Biology</Topic> <StageID>MiddleSchool</StageID> <ID>G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07</ID> <RAISED>2022</RAISED></Row>
+<Row><Topic>Chemistry</Topic> <StageID>MiddleSchool</StageID> <ID>G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08</ID> <RAISED>1382</RAISED></Row>
+<Row><Topic>English</Topic> <StageID>lowerlevel</StageID> <ID>G-04, G-04, G-04, G-05, G-05, G-05</ID> <RAISED>183</RAISED></Row>
+<Row><Topic>English</Topic> <StageID>MiddleSchool</StageID> <ID>G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-06, G-07, G-07</ID> <RAISED>1684</RAISED></Row>
+<Row><Topic>English</Topic> <StageID>HighSchool</StageID> <ID>G-11, G-12, G-12, G-12, G-12, G-12, G-12, G-12, G-12, G-12, G-12</ID> <RAISED>411</RAISED></Row>
+<Row><Topic>French</Topic> <StageID>lowerlevel</StageID> <ID>G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02</ID> <RAISED>2569</RAISED></Row>
+<Row><Topic>French</Topic> <StageID>HighSchool</StageID> <ID>G-11</ID> <RAISED>70</RAISED></Row>
+<Row><Topic>Geology</Topic> <StageID>MiddleSchool</StageID> <ID>G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08</ID> <RAISED>1784</RAISED></Row>
+<Row><Topic>History</Topic> <StageID>lowerlevel</StageID> <ID>G-04, G-04, G-04, G-04, G-04, G-04, G-04</ID> <RAISED>332</RAISED></Row>
+<Row><Topic>History</Topic> <StageID>MiddleSchool</StageID> <ID>G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08</ID> <RAISED>756</RAISED></Row>
+<Row><Topic>IT</Topic> <StageID>lowerlevel</StageID> <ID>G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-02, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04</ID> <RAISED>1926</RAISED></Row>
+<Row><Topic>IT</Topic> <StageID>MiddleSchool</StageID> <ID>G-06, G-06, G-06</ID> <RAISED>80</RAISED></Row>
+<Row><Topic>IT</Topic> <StageID>lowerlevel</StageID> <ID>G-07</ID> <RAISED>2</RAISED></Row>
+<Row><Topic>IT</Topic> <StageID>MiddleSchool</StageID> <ID>G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07</ID> <RAISED>613</RAISED></Row>
+<Row><Topic>IT</Topic> <StageID>HighSchool</StageID> <ID>G-09, G-09, G-09, G-09, G-09, G-10, G-10, G-10, G-10, G-12</ID> <RAISED>325</RAISED></Row>
+<Row><Topic>Math</Topic> <StageID>lowerlevel</StageID> <ID>G-04, G-04</ID> <RAISED>64</RAISED></Row>
+<Row><Topic>Math</Topic> <StageID>MiddleSchool</StageID> <ID>G-06, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-08, G-08, G-08</ID> <RAISED>584</RAISED></Row>
+<Row><Topic>Math</Topic> <StageID>HighSchool</StageID> <ID>G-11, G-11</ID> <RAISED>143</RAISED></Row>
+<Row><Topic>Quran</Topic> <StageID>MiddleSchool</StageID> <ID>G-06, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07</ID> <RAISED>978</RAISED></Row>
+<Row><Topic>Quran</Topic> <StageID>HighSchool</StageID> <ID>G-11, G-11, G-11, G-11</ID> <RAISED>223</RAISED></Row>
+<Row><Topic>Science</Topic> <StageID>lowerlevel</StageID> <ID>G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04, G-04</ID> <RAISED>1434</RAISED></Row>
+<Row><Topic>Science</Topic> <StageID>MiddleSchool</StageID> <ID>G-06, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-07, G-08</ID> <RAISED>1005</RAISED></Row>
+<Row><Topic>Science</Topic> <StageID>HighSchool</StageID> <ID>G-11, G-11, G-11, G-11</ID> <RAISED>242</RAISED></Row>
+<Row><Topic>Spanish</Topic> <StageID>MiddleSchool</StageID> <ID>G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08, G-08</ID> <RAISED>1063</RAISED></Row>
+<Row><Topic>Spanish</Topic> <StageID>HighSchool</StageID> <ID>G-11</ID> <RAISED>10</RAISED></Row>
+</Rows>
