@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Data_to_API_Job": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
